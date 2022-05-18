@@ -4,10 +4,14 @@ export default function Topbar() {
   return (
     <div className="topbar">
       <div className="wrapper">
-        <div className="left"></div>
-        <a href="#intro" className="logo">Intro</a>
+        <div className="left">
+          <a href="#intro" className="logo">
+            Intro
+          </a>
+        </div>
         <div className="right"></div>
-        </div>;
+      </div>
+      
     </div>
   );
 }
