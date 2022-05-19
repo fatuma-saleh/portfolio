@@ -11,7 +11,7 @@ export default function Topbar() {
           </a>
           <div className="itemContainer">
             <Person  className="icon"/>
-            <span>+1-647-293-8566</span>
+            <span>+1647-293-8566</span>
           </div>
           <div className="itemContainer">
             <Mail className="icon" />
