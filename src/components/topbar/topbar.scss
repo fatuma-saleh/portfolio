@@ -27,6 +27,15 @@
        .itemContainer {
          display: flex;
          align-items: center;
+         margin-right: 30px;
+         .icon {
+           font-size: 28px;
+           margin-right:5px;
+         }
+         span{
+           font-size: 15px;
+           font-weight: 500;
+         }
        }
       
     }

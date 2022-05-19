@@ -18,7 +18,13 @@ export default function Topbar() {
             <span>sfatex@gmail.com</span>
           </div>
         </div>
-        <div className="right"></div>
+        <div className="right">
+          <div className="hamburger">
+            <span className="line1"></span>
+            <span className="line2"></span>
+            <span className="line3"></span>
+          </div>
+        </div>
       </div>
     </div>
   );
