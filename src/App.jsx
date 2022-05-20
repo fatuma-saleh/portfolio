@@ -6,10 +6,10 @@ import Contact from "./components/contact/Contact";
 import "./app.scss";
 import { useState } from "react";
 function App() {
-  const [menuOPen,setMenuOPen] = useState(false)
+  const [menuOpen, setMenuOpen] = useState(false)
   return (
     <div className="app">
-      <Topbar menuOPen={menuOPen} setMenuOPen={setMenuOPen}/>
+      <Topbar menuOpen={menuOpen} setMenuOpen={ setMenuOpen }/>
       <div className="sections">
         <Intro />
         <Portfolio />
