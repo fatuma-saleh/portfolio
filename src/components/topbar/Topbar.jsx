@@ -1,16 +1,16 @@
 import React from "react";
 import "./topbar.scss";
-import { Person,Mail } from '@mui/icons-material';
-export default function Topbar() {
+import { Person, Mail } from "@mui/icons-material";
+export default function Topbar(menuOpen, setMenuOpen ) {
   return (
-    <div className="topbar">
+    <div className={"topbar " + (menuOpen && "active")}>
       <div className="wrapper">
         <div className="left">
           <a href="#intro" className="logo">
             Intro
           </a>
           <div className="itemContainer">
-            <Person  className="icon"/>
+            <Person className="icon" />
             <span>+1647-293-8566</span>
           </div>
           <div className="itemContainer">
