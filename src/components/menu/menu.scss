@@ -12,6 +12,7 @@
   align-items: center;
   justify-content: center;
   transition: all 1s ease;
+  
 
   &.active {
     right: 0;
@@ -23,6 +24,7 @@
     font-size: 30px;
     font-weight: 300;
     color:white;
+    width:  60%;
 
     li{
       margin-bottom: 25px;
