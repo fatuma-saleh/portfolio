@@ -1,11 +1,18 @@
 .intro {
-background-color:white;
-display: flex;
+  background-color: white;
+  display: flex;
 
-.left{
-flex: 0.5;
-}
-.right{
-  flex: 0.5;
-}
+  .left {
+    flex: 0.5;
+    .imageContainer {
+      height: 700px;
+      width: 700px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .right {
+    flex: 0.5;
+  }
 }
