@@ -13,7 +13,7 @@ export default function Intro() {
         <div className="wrapper">
           <h2>Hi There! I'm</h2>
           <h1>Fatuma Saleh</h1>
-          <h3>Full Stack Web Developer</h3>
+          <h3>Full Stack Web Developer<span></span></h3>
         </div>
         <a href="#portfolio">
         <img src="docs/arrow.png" alt="" />

@@ -4,19 +4,62 @@
 
   .left {
     flex: 0.5;
+    overflow: hidden;
+    position: relative;
     .imgContainer {
       height: 700px;
       width: 700px;
+      background-color: crimson;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      float: right;
+      
       img {
-        width: 100%;
+       width: 60%;
+       position:absolute;
+       margin-bottom: 100px;
+       
+       
+    
       }
     }
   }
   .right {
     flex: 0.5;
-    .wrapper {
+    position: relative;
+    .wrapper{
       height: 100%;
       width: 100%;
+      padding-left: 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      
+      h1{
+        font-size: 60px;
+        margin: 10px 0;
+
+      }
+      h2{
+        font-size: 35px;
+
+      }
+      h3{
+        font-size: 30px;
+      }
     }
+      a{
+        position:absolute;
+        bottom: 10px;
+        left: 40%;
+        img{
+          width:30px;
+          animation: arrowBlink 2s infinite;
+
+        }
+      }
+    
   }
 }
