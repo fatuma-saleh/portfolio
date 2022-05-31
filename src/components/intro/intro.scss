@@ -8,11 +8,15 @@
       height: 700px;
       width: 700px;
       img {
-       width: 100%;
+        width: 100%;
       }
     }
   }
   .right {
     flex: 0.5;
+    .wrapper {
+      height: 100%;
+      width: 100%;
+    }
   }
 }

@@ -15,7 +15,11 @@ export default function Intro() {
           <h1>Fatuma Saleh</h1>
           <h3>Full Stack Web Developer</h3>
         </div>
+        <a href="#portfolio">
+        <img src="docs/arrow.png" alt="" />
+        </a>
       </div>
+
     </div>
   );
 }
