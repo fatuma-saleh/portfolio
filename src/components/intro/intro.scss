@@ -59,7 +59,15 @@
           animation: arrowBlink 2s infinite;
 
         }
+        @keyframes arrowBlink{
+          100% {
+            opacity:0;
+          }
+
+        } 
+          
+        }
       }
     
   }
-}
+
