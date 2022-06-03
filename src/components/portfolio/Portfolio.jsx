@@ -11,6 +11,12 @@ export default function Portfolio() {
         <li>Design</li> 
         <li>Branding</li>
       </ul>
+      <div className="container">
+        <div className="item">
+          <img src =""alt=""/>
+          <h3 iCard App></h3>
+        </div>
+      </div>
     </div>
   );
 }
