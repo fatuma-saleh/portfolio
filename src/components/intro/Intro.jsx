@@ -6,13 +6,13 @@ export default function Intro() {
   const textRef = useRef();
 
   useEffect(() => {
-    console.log("++++)))))",textRef)
+    console.log("++++)))))", textRef);
     init(textRef.current, {
       showCursor: true,
       backDelay: 1500,
       backSpeed: 40,
- 
-      strings: ["Back End","Front End","Full Stack"]
+
+      strings: ["Back End", "Front End", "Full Stack"],
     });
   }, []);
   return (
