@@ -28,6 +28,9 @@ export default function Works() {
           </div>
         </div>
       </div>
+      <img src="docs/arrow.png"className="arrow left" alt="" />
+      <img src="docs/arrow.png"className="arrow right" alt="" />
+
     </div>
   );
 }
