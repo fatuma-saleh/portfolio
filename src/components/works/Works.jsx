@@ -5,7 +5,8 @@ export default function Works() {
   return (
     <div className="works" id="works">
       <div className="slider">
-        <div className="container">
+        {data.map(d=>(
+          <div className="container">
           <div className="item">
             <div className="left">
               <div className="leftContainer">
@@ -28,6 +29,8 @@ export default function Works() {
             </div>
           </div>
         </div>
+        ))}
+        
       </div>
       <img src="docs/arrow.png"className="arrow left" alt="" />
       <img src="docs/arrow.png"className="arrow right" alt="" />
