@@ -8,7 +8,7 @@
     height: 50px;
     position: absolute;
     cursor: pointer;
-    
+
     &.left {
       left: 100px;
       transform: rotate(-270deg);
@@ -90,5 +90,4 @@
       }
     }
   }
-  
 }
