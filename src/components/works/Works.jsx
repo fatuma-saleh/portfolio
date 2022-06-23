@@ -1,31 +1,28 @@
-import React from "react";
+import React, { useState } from "react";
 import "./works.scss";
-const data = require('./../../../public/data')
+const data = require("../../data")
 export default function Works() {
+  const [currentSlide,setCurrrentSlide] = useState(0)
   return (
     <div className="works" id="works">
-      <div className="slider">
+      <div className="slider" style={{transform:`translateX(-${currentSlide *100}vw)`}}>
         {data.map(d=>(
           <div className="container">
           <div className="item">
             <div className="left">
               <div className="leftContainer">
                 <div className="imgContainer">
-                  <img src="docs/iCard.png" alt="" />
+                  <img src={d.icon} alt="" />
                 </div>
-                <h2>iCard</h2>
+                <h2>{d.title}</h2>
                 <p>
-                  iCard is a single-page application (SPA) that allows users to
-                  create digital business cards, and share it to others through
-                  an auto generated QR code. The front end of this project is
-                  built with React and makes requests to an API to fetch and
-                  store appointment data from a database.
+                 {d.desc }
                 </p>
                 <span>Projects</span>
               </div>
             </div>
             <div className="right">
-              <img src="docs/iCard.png" alt="" />
+              <img src={d.img} alt="" />
             </div>
           </div>
         </div>
