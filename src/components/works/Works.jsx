@@ -3,9 +3,11 @@ import "./works.scss";
 const data = require("../../data");
 export default function Works() {
   const [currentSlide, setCurrrentSlide] = useState(0);
-  const handleclick = (direction) =>{
-direction==="left"? setCurrrentSlide(currentSlide > 0 ? currentSlide-1:3):setCurrrentSlide(currentSlide<3?currentSlide+1:0)
-  }
+  const handleclick = (direction) => {
+    direction === "left"
+      ? setCurrrentSlide(currentSlide > 0 ? currentSlide - 1 : 3)
+      : setCurrrentSlide(currentSlide < data.length-1 ? currentSlide + 1 : 0);
+  };
   return (
     <div className="works" id="works">
       <div
