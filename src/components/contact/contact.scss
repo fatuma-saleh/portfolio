@@ -1,3 +1,11 @@
 .contact{
-  background-color: rgb(41, 220, 41);
+  background-color: rgb(243, 248, 243);
+  display:flex;
+  .left{
+    flex:1;
+  }
+
+  .right{
+    flex:1;
+  }
 }
