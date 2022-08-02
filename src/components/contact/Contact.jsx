@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import "./contact.scss"
+import HandshakeIcon from '@mui/icons-material/Handshake';
 export default function Contact() {
   const [message,setMessage] = useState(false)
   const handleSubmit = (e)=>{
@@ -9,7 +10,8 @@ export default function Contact() {
   return (
     <div className='contact' id="contact">
       <div className="left">
-        <img src="docs/Handshake.jpeg" alt="" />
+        {/* <img src="docs/Handshake.jpeg" alt="" /> */}
+        < HandshakeIcon className="hicon" />
       </div>
       <div className="right">
         <h2>Contact</h2>
