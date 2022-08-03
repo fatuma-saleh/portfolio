@@ -24,7 +24,9 @@ export default function Works() {
                   </div>
                   <h2>{d.title}</h2>
                   <p>{d.desc}</p>
-                  <span>Projects</span>
+                  {/* <span>Projects</span> */}
+                  <a href={d.Project}>Project</a>
+                 
                 </div>
               </div>
               <div className="right">

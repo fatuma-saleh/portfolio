@@ -6,7 +6,7 @@ const data = [
     title: "Tweeter",
     desc: "Tweeter is a simple single-page,AJAX-based Twitter clone that uses jQuery,HTML5 and plain CSS .",
     img: "docs/add-tweet.png",
-    project:"https://github.com/fatuma-saleh/tweeter"
+    Project:"https://github.com/fatuma-saleh/tweeter"
   },
   {
     id: "2",
