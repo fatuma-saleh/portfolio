@@ -1,6 +1,7 @@
 import React from "react";
 import "./topbar.scss";
-import { Person, Mail } from "@mui/icons-material";
+import { Person, Mail, LinkedIn } from "@mui/icons-material";
+
 export default function Topbar({ menuOpen, setMenuOpen }) {
   return (
     <div className={"topbar " + (menuOpen && "active")}>
@@ -17,9 +18,13 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
             <Mail className="icon" />
             <span>sfatex@gmail.com</span>
           </div>
+          <div className="itemContainer">
+            
+            <a href="https://www.linkedin.com/in/fatumasaleh"><LinkedIn className="icon" /></a>
+          </div>
         </div>
         <div className="right">
-          <div className="hamburger" onClick={()=>setMenuOpen(!menuOpen)}>
+          <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
             <span className="line1"></span>
             <span className="line2"></span>
             <span className="line3"></span>
