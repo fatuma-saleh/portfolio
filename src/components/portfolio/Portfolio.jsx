@@ -21,7 +21,8 @@ export default function Portfolio() {
         </div>
       </div>
 
-      <div className="right">rightkkkk</div>
+      <div className="right">
+        <h1>My Skillset</h1></div>
     </div>
   );
 }
