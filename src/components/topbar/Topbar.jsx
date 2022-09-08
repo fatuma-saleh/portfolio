@@ -1,6 +1,7 @@
 import React from "react";
 import "./topbar.scss";
-import { Person, Mail, LinkedIn } from "@mui/icons-material";
+import { Person, Mail, LinkedIn} from "@mui/icons-material";
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
   return (
@@ -19,8 +20,14 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
             <span>sfatex@gmail.com</span>
           </div>
           <div className="itemContainer">
-            
-            <a href="https://www.linkedin.com/in/fatumasaleh"><LinkedIn className="icon" /></a>
+            <a href="https://www.linkedin.com/in/fatumasaleh">
+              <LinkedIn className="icon" />
+            </a>
+          </div>
+          <div className="itemContainer">
+            <a href="https://github.com/fatuma-saleh">
+              <GitHubIcon className="icon" />
+            </a>
           </div>
         </div>
         <div className="right">
