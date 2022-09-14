@@ -21,6 +21,42 @@ export default function Portfolio() {
 
       <div className="right">
         <h1>My Skillset</h1>
+        <ol className="skills">
+          <li>
+            {" "}
+            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+              JavaScript
+            </a>
+          </li>
+          <li>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/Java">Java</a></li>
+          <li>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/">Node.js</a>
+          </li>
+          <li>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+            React
+          </a></li>
+          <li>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+            HTML
+          </a></li>
+          <li>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+            CSS
+          </a></li>
+          <li>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+            Ruby On Rails
+          </a></li>
+          <li>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+            Mysql
+          </a></li>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+            PosgreSql
+          </a>
+        </ol>
       </div>
     </div>
   );
