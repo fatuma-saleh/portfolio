@@ -1,5 +1,6 @@
 import React from "react";
 import "./portfolio.scss";
+import JavascriptIcon from '@mui/icons-material/Javascript';
 export default function Portfolio() {
   return (
     <div className="portfolio" id="portfolio">
@@ -25,7 +26,7 @@ export default function Portfolio() {
           <li>
             {" "}
             <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
-              JavaScript
+            <JavascriptIcon className="icon"/>
             </a>
           </li>
           <li>
