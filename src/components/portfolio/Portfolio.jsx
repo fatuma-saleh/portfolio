@@ -1,7 +1,7 @@
 import React from "react";
 import "./portfolio.scss";
-import JavascriptIcon from "@mui/icons-material/Javascript";
-import HtmlIcon from "@mui/icons-material/Html";
+// import JavascriptIcon from "@mui/icons-material/Javascript";
+// import HtmlIcon from "@mui/icons-material/Html";
 export default function Portfolio() {
   return (
     <div className="portfolio" id="portfolio">
@@ -27,7 +27,7 @@ export default function Portfolio() {
           <li>
             {" "}
             <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
-              <JavascriptIcon className="icon" />
+              Javascript
             </a>
           </li>
           <li>
@@ -43,7 +43,7 @@ export default function Portfolio() {
           </li>
           <li>
             <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
-              <HtmlIcon className="icon" />
+              HTML
             </a>
           </li>
           <li>
@@ -62,7 +62,7 @@ export default function Portfolio() {
               Mysql
             </a>
           </li>
-          <li></li>
+        
           <li>
           <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
             PosgreSQL
