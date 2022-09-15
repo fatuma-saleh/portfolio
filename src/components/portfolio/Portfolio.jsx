@@ -50,7 +50,7 @@ export default function Portfolio() {
             <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">CSS</a>
           </li>
           <li>
-            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"></a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">Sass</a>
           </li>
           <li>
             <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
