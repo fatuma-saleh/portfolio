@@ -1,7 +1,7 @@
 import React from "react";
 import "./portfolio.scss";
-import JavascriptIcon from '@mui/icons-material/Javascript';
-import HtmlIcon from '@mui/icons-material/Html';
+import JavascriptIcon from "@mui/icons-material/Javascript";
+import HtmlIcon from "@mui/icons-material/Html";
 export default function Portfolio() {
   return (
     <div className="portfolio" id="portfolio">
@@ -23,42 +23,57 @@ export default function Portfolio() {
 
       <div className="right">
         <h1>My Skillset</h1>
-        <ol className="skills">
+        <ul className="skills">
           <li>
             {" "}
             <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
-            <JavascriptIcon className="icon"/>
+              <JavascriptIcon className="icon" />
             </a>
           </li>
           <li>
-          <a href="https://developer.mozilla.org/en-US/docs/Web/Java">Java</a></li>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/Java">Java</a>
+          </li>
           <li>
             <a href="https://developer.mozilla.org/en-US/docs/Web/">Node.js</a>
           </li>
           <li>
-          <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
-            React
-          </a></li>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+              React
+            </a>
+          </li>
           <li>
-          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
-           <HtmlIcon className="icon"/>
-          </a></li>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
+              <HtmlIcon className="icon" />
+            </a>
+          </li>
+          <li>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">CSS</a>
+          </li>
+          <li>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"></a>
+          </li>
+          <li>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+              Ruby On Rails
+            </a>
+          </li>
+          <li>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+              Mysql
+            </a>
+          </li>
+          <li></li>
           <li>
           <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
-            
-          </a></li>
-          <li>
-          <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
-            Ruby On Rails
-          </a></li>
-          <li>
-          <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
-            Mysql
-          </a></li>
-          <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
-            PosgreSql
+            PosgreSQL
           </a>
-        </ol>
+          </li>
+          <li>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+            Github
+          </a>
+          </li>
+        </ul>
       </div>
     </div>
   );
