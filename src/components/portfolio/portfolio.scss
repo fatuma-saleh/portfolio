@@ -37,10 +37,18 @@
 
     a:hover {
       color: crimson;
+      animation: textBlink 2s infinite;
+      @keyframes textBlink{
+        100% {
+          opacity:0;
+        }
+
+      } 
     } 
     a {
       color: black;
       text-decoration: none;
+     
     }
     li {
       margin-top: 10px;
