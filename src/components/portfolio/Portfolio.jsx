@@ -25,53 +25,52 @@ export default function Portfolio() {
         <h1>My Skillset</h1>
         <ul className="skills">
           <li>
-            {" "}
             <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
               Javascript
             </a>
           </li>
           <li>
-            <a href="https://developer.mozilla.org/en-US/docs/Web/Java">Java</a>
-          </li>
-          <li>
-            <a href="https://developer.mozilla.org/en-US/docs/Web/">Node.js</a>
-          </li>
-          <li>
-            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
-              React
+            <a href="https://developer.mozilla.org/en-US/docs/Glossary/Java">
+              Java
             </a>
           </li>
           <li>
-            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
-              HTML
+            <a href="https://developer.mozilla.org/en-US/docs/Glossary/Node.js">Node.js</a>
+          </li>
+          <li>
+            <a href="https://reactjs.org/docs/getting-started.html">React</a>
+          </li>
+          <li>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a>
+          </li>
+          <li>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a>
+          </li>
+          <li>
+            <a href="https://sass-lang.com/guide">
+              Sass
             </a>
           </li>
           <li>
-            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">CSS</a>
-          </li>
-          <li>
-            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">Sass</a>
-          </li>
-          <li>
-            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+            <a href="https://udn.realityripple.com/docs/Glossary/Ruby">
               Ruby On Rails
             </a>
           </li>
           <li>
-            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+            <a href="https://dev.mysql.com/doc/">
               Mysql
             </a>
           </li>
-        
+
           <li>
-          <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
-            PosgreSQL
-          </a>
+            <a href="https://www.postgresql.org/docs/current/index.html">
+              PosgreSQL
+            </a>
           </li>
           <li>
-          <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
-            Github
-          </a>
+            <a href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/GitHub">
+              Github
+            </a>
           </li>
         </ul>
       </div>
