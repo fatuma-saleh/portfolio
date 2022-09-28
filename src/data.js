@@ -32,5 +32,13 @@ const data = [
     img: "docs/quizApp.png",
     Project:"https://github.com/fatuma-saleh/quiz-app"
   },
+  {
+    id: "5",
+    icon: "docs/show_appointments.png",
+    title: "Scheduler",
+    desc: "Scheduler is a single-page application that allows users to book technical interviews between students and mentors. Appointments can be between the hours of 12 PM and 5 PM, Monday to Friday. Each appointment has one student and one interviewer. When creating a new appointment, the user can enter any student name while the interviewer is chosen from a predefined list. ",
+    img: "docs/show_appointments.png",
+    Project:"https://github.com/fatuma-saleh/scheduler"
+  },
 ];
 module.exports = data;
