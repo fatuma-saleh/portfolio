@@ -1,6 +1,7 @@
-import React, { useState } from 'react'
+import React, { useState, useRef } from 'react'
 import "./contact.scss"
 import HandshakeIcon from '@mui/icons-material/Handshake';
+import emailjs from '@emailjs/browser';
 export default function Contact() {
   const [message,setMessage] = useState(false)
   const handleSubmit = (e)=>{
