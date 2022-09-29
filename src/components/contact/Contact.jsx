@@ -7,7 +7,7 @@ export default function Contact() {
   const handleSubmit = (e)=>{
     e.preventDefault();
     setMessage(true)
-    emailjs.sendForm('service_tmjblio', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+    emailjs.sendForm('service_tmjblio', 'template_0z0ei5f', form.current, 'YOUR_PUBLIC_KEY')
     .then((result) => {
         console.log(result.text);
     }, (error) => {
