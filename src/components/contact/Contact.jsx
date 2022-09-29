@@ -22,11 +22,11 @@ export default function Contact() {
       </div>
       <div className="right">
         <h2>Contact</h2>
-        <form onSubmit={handleSubmit}>
-        <input type="text" placeholder='Full Name' />
-          <input type="text" placeholder='Email' />
-          <textarea placeholder='Message'></textarea>
-          <button type='submit'>Send</button>
+        <form ref={form} onSubmit={handleSubmit}>
+        <input type="text" placeholder='Full Name' name="user_name" />
+          <input type="text" placeholder='Email'name="user_email" />
+          <textarea placeholder='Message' name="message"></textarea>
+          <button type='submit' value="send">Send</button>
           {message &&<span>Thanks for contacting me!Will reply soon!</span>}
         </form>
       </div>
